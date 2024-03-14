@@ -1,0 +1,297 @@
+INFO - 03/14/24 11:38:58 - 0:00:00 - FINE_SIZE: 224
+                                     LOAD_SIZE: 256
+                                     annealing_epoch: 10
+                                     augment_dataset: True
+                                     batch_size: 8
+                                     blocks: [2, 4]
+                                     data_dir: datasets/train/fakeavceleb*
+                                     device: cpu
+                                     dropout: 0.2
+                                     filts: [20, [20, 20], [20, 128], [128, 128]]
+                                     first_conv: 1024
+                                     freeze_audio_encoder: True
+                                     freeze_image_encoder: True
+                                     gradient_accumulation_steps: 1
+                                     gru_node: 1024
+                                     hidden: []
+                                     hidden_sz: 768
+                                     img_embed_pool_type: avg
+                                     img_hidden_sz: 1024
+                                     in_channels: 1
+                                     include_bn: True
+                                     lr: 0.0001
+                                     lr_factor: 0.3
+                                     lr_patience: 10
+                                     max_epochs: 500
+                                     n_classes: 2
+                                     n_workers: 12
+                                     name: MMDF
+                                     nb_classes: 2
+                                     nb_fc_node: 1024
+                                     nb_gru_layer: 3
+                                     nb_samp: 64600
+                                     num_image_embeds: 1
+                                     patience: 20
+                                     pretrained_audio_encoder: False
+                                     pretrained_image_encoder: False
+                                     savedir: ./savepath/MMDF
+                                     seed: 1
+INFO - 03/14/24 11:39:15 - 0:00:17 - Train Loss: nan
+INFO - 03/14/24 11:39:15 - 0:00:17 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:39:15 - 0:00:17 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:39:30 - 0:00:33 - Train Loss: nan
+INFO - 03/14/24 11:39:30 - 0:00:33 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:39:30 - 0:00:33 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:39:46 - 0:00:48 - Train Loss: nan
+INFO - 03/14/24 11:39:46 - 0:00:48 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:39:46 - 0:00:48 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:39:59 - 0:01:01 - Train Loss: nan
+INFO - 03/14/24 11:39:59 - 0:01:01 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:39:59 - 0:01:01 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:40:14 - 0:01:17 - Train Loss: nan
+INFO - 03/14/24 11:40:14 - 0:01:17 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:40:14 - 0:01:17 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:40:28 - 0:01:31 - Train Loss: nan
+INFO - 03/14/24 11:40:28 - 0:01:31 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:40:28 - 0:01:31 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:40:41 - 0:01:44 - Train Loss: nan
+INFO - 03/14/24 11:40:41 - 0:01:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:40:41 - 0:01:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:40:57 - 0:01:59 - Train Loss: nan
+INFO - 03/14/24 11:40:57 - 0:01:59 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:40:57 - 0:01:59 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:41:10 - 0:02:12 - Train Loss: nan
+INFO - 03/14/24 11:41:10 - 0:02:12 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:41:10 - 0:02:12 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:41:25 - 0:02:27 - Train Loss: nan
+INFO - 03/14/24 11:41:25 - 0:02:27 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:41:25 - 0:02:27 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:41:39 - 0:02:41 - Train Loss: nan
+INFO - 03/14/24 11:41:39 - 0:02:41 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:41:39 - 0:02:41 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:41:54 - 0:02:57 - Train Loss: nan
+INFO - 03/14/24 11:41:54 - 0:02:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:41:54 - 0:02:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:42:07 - 0:03:10 - Train Loss: nan
+INFO - 03/14/24 11:42:07 - 0:03:10 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:42:07 - 0:03:10 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:42:23 - 0:03:25 - Train Loss: nan
+INFO - 03/14/24 11:42:23 - 0:03:25 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:42:23 - 0:03:25 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:42:36 - 0:03:38 - Train Loss: nan
+INFO - 03/14/24 11:42:36 - 0:03:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:42:36 - 0:03:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:42:52 - 0:03:54 - Train Loss: nan
+INFO - 03/14/24 11:42:52 - 0:03:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:42:52 - 0:03:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:43:05 - 0:04:07 - Train Loss: nan
+INFO - 03/14/24 11:43:05 - 0:04:07 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:43:05 - 0:04:07 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:43:20 - 0:04:22 - Train Loss: nan
+INFO - 03/14/24 11:43:20 - 0:04:22 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:43:20 - 0:04:22 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:43:36 - 0:04:38 - Train Loss: nan
+INFO - 03/14/24 11:43:36 - 0:04:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:43:36 - 0:04:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:43:51 - 0:04:54 - Train Loss: nan
+INFO - 03/14/24 11:43:51 - 0:04:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:43:51 - 0:04:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:43:51 - 0:04:54 - No improvement. Breaking out of loop.
+INFO - 03/14/24 11:56:48 - 0:00:00 - FINE_SIZE: 224
+                                     LOAD_SIZE: 256
+                                     annealing_epoch: 10
+                                     augment_dataset: True
+                                     batch_size: 8
+                                     blocks: [2, 4]
+                                     data_dir: datasets/train/fakeavceleb*
+                                     device: cpu
+                                     dropout: 0.2
+                                     filts: [20, [20, 20], [20, 128], [128, 128]]
+                                     first_conv: 1024
+                                     freeze_audio_encoder: True
+                                     freeze_image_encoder: True
+                                     gradient_accumulation_steps: 1
+                                     gru_node: 1024
+                                     hidden: []
+                                     hidden_sz: 768
+                                     img_embed_pool_type: avg
+                                     img_hidden_sz: 1024
+                                     in_channels: 1
+                                     include_bn: True
+                                     lr: 0.0001
+                                     lr_factor: 0.3
+                                     lr_patience: 10
+                                     max_epochs: 500
+                                     n_classes: 2
+                                     n_workers: 12
+                                     name: MMDF
+                                     nb_classes: 2
+                                     nb_fc_node: 1024
+                                     nb_gru_layer: 3
+                                     nb_samp: 64600
+                                     num_image_embeds: 1
+                                     patience: 20
+                                     pretrained_audio_encoder: False
+                                     pretrained_image_encoder: False
+                                     savedir: ./savepath/MMDF
+                                     seed: 1
+INFO - 03/14/24 11:57:03 - 0:00:15 - Train Loss: nan
+INFO - 03/14/24 11:57:03 - 0:00:15 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:57:03 - 0:00:15 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:57:18 - 0:00:30 - Train Loss: nan
+INFO - 03/14/24 11:57:18 - 0:00:30 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:57:18 - 0:00:30 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:57:32 - 0:00:44 - Train Loss: nan
+INFO - 03/14/24 11:57:32 - 0:00:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:57:32 - 0:00:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:57:47 - 0:00:59 - Train Loss: nan
+INFO - 03/14/24 11:57:47 - 0:00:59 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:57:47 - 0:00:59 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:58:02 - 0:01:14 - Train Loss: nan
+INFO - 03/14/24 11:58:02 - 0:01:14 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:58:02 - 0:01:14 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:58:17 - 0:01:30 - Train Loss: nan
+INFO - 03/14/24 11:58:17 - 0:01:30 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:58:17 - 0:01:30 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:58:31 - 0:01:43 - Train Loss: nan
+INFO - 03/14/24 11:58:31 - 0:01:43 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:58:31 - 0:01:43 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:58:45 - 0:01:57 - Train Loss: nan
+INFO - 03/14/24 11:58:45 - 0:01:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:58:45 - 0:01:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:59:00 - 0:02:13 - Train Loss: nan
+INFO - 03/14/24 11:59:00 - 0:02:13 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:59:00 - 0:02:13 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:59:16 - 0:02:28 - Train Loss: nan
+INFO - 03/14/24 11:59:16 - 0:02:28 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:59:16 - 0:02:28 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:59:31 - 0:02:43 - Train Loss: nan
+INFO - 03/14/24 11:59:31 - 0:02:43 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:59:31 - 0:02:43 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 11:59:46 - 0:02:58 - Train Loss: nan
+INFO - 03/14/24 11:59:46 - 0:02:58 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 11:59:46 - 0:02:58 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:00:01 - 0:03:14 - Train Loss: nan
+INFO - 03/14/24 12:00:01 - 0:03:14 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:00:01 - 0:03:14 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:00:17 - 0:03:29 - Train Loss: nan
+INFO - 03/14/24 12:00:17 - 0:03:29 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:00:17 - 0:03:29 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:00:32 - 0:03:44 - Train Loss: nan
+INFO - 03/14/24 12:00:32 - 0:03:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:00:32 - 0:03:44 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:00:45 - 0:03:58 - Train Loss: nan
+INFO - 03/14/24 12:00:45 - 0:03:58 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:00:45 - 0:03:58 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:01:01 - 0:04:13 - Train Loss: nan
+INFO - 03/14/24 12:01:01 - 0:04:13 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:01:01 - 0:04:13 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:01:16 - 0:04:29 - Train Loss: nan
+INFO - 03/14/24 12:01:16 - 0:04:29 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:01:16 - 0:04:29 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:01:29 - 0:04:42 - Train Loss: nan
+INFO - 03/14/24 12:01:29 - 0:04:42 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:01:29 - 0:04:42 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:01:45 - 0:04:57 - Train Loss: nan
+INFO - 03/14/24 12:01:45 - 0:04:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:01:45 - 0:04:57 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:01:45 - 0:04:57 - No improvement. Breaking out of loop.
+INFO - 03/14/24 12:06:28 - 0:00:00 - FINE_SIZE: 224
+                                     LOAD_SIZE: 256
+                                     annealing_epoch: 10
+                                     augment_dataset: True
+                                     batch_size: 8
+                                     blocks: [2, 4]
+                                     data_dir: datasets/train/fakeavceleb*
+                                     device: cpu
+                                     dropout: 0.2
+                                     filts: [20, [20, 20], [20, 128], [128, 128]]
+                                     first_conv: 1024
+                                     freeze_audio_encoder: True
+                                     freeze_image_encoder: True
+                                     gradient_accumulation_steps: 1
+                                     gru_node: 1024
+                                     hidden: []
+                                     hidden_sz: 768
+                                     img_embed_pool_type: avg
+                                     img_hidden_sz: 1024
+                                     in_channels: 1
+                                     include_bn: True
+                                     lr: 0.0001
+                                     lr_factor: 0.3
+                                     lr_patience: 10
+                                     max_epochs: 500
+                                     n_classes: 2
+                                     n_workers: 12
+                                     name: MMDF
+                                     nb_classes: 2
+                                     nb_fc_node: 1024
+                                     nb_gru_layer: 3
+                                     nb_samp: 64600
+                                     num_image_embeds: 1
+                                     patience: 20
+                                     pretrained_audio_encoder: False
+                                     pretrained_image_encoder: False
+                                     savedir: ./savepath/MMDF
+                                     seed: 1
+INFO - 03/14/24 12:06:44 - 0:00:16 - Train Loss: nan
+INFO - 03/14/24 12:06:44 - 0:00:16 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:06:44 - 0:00:16 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:06:59 - 0:00:32 - Train Loss: nan
+INFO - 03/14/24 12:06:59 - 0:00:32 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:06:59 - 0:00:32 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:07:15 - 0:00:47 - Train Loss: nan
+INFO - 03/14/24 12:07:15 - 0:00:47 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:07:15 - 0:00:47 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:07:31 - 0:01:03 - Train Loss: nan
+INFO - 03/14/24 12:07:31 - 0:01:03 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:07:31 - 0:01:03 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:07:46 - 0:01:19 - Train Loss: nan
+INFO - 03/14/24 12:07:46 - 0:01:19 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:07:46 - 0:01:19 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:08:02 - 0:01:34 - Train Loss: nan
+INFO - 03/14/24 12:08:02 - 0:01:34 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:08:02 - 0:01:34 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:08:17 - 0:01:49 - Train Loss: nan
+INFO - 03/14/24 12:08:17 - 0:01:49 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:08:17 - 0:01:49 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:08:33 - 0:02:05 - Train Loss: nan
+INFO - 03/14/24 12:08:33 - 0:02:05 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:08:33 - 0:02:05 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:08:48 - 0:02:21 - Train Loss: nan
+INFO - 03/14/24 12:08:48 - 0:02:21 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:08:48 - 0:02:21 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:09:04 - 0:02:36 - Train Loss: nan
+INFO - 03/14/24 12:09:04 - 0:02:36 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:09:04 - 0:02:36 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:09:19 - 0:02:51 - Train Loss: nan
+INFO - 03/14/24 12:09:19 - 0:02:51 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:09:19 - 0:02:51 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:09:35 - 0:03:07 - Train Loss: nan
+INFO - 03/14/24 12:09:35 - 0:03:07 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:09:35 - 0:03:07 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:09:50 - 0:03:22 - Train Loss: nan
+INFO - 03/14/24 12:09:50 - 0:03:22 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:09:50 - 0:03:22 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:10:06 - 0:03:38 - Train Loss: nan
+INFO - 03/14/24 12:10:06 - 0:03:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:10:06 - 0:03:38 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:10:21 - 0:03:54 - Train Loss: nan
+INFO - 03/14/24 12:10:21 - 0:03:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:10:21 - 0:03:54 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:10:37 - 0:04:09 - Train Loss: nan
+INFO - 03/14/24 12:10:37 - 0:04:09 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:10:37 - 0:04:09 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:10:52 - 0:04:25 - Train Loss: nan
+INFO - 03/14/24 12:10:52 - 0:04:25 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:10:52 - 0:04:25 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:11:08 - 0:04:40 - Train Loss: nan
+INFO - 03/14/24 12:11:08 - 0:04:40 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:11:08 - 0:04:40 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:11:24 - 0:04:56 - Train Loss: nan
+INFO - 03/14/24 12:11:24 - 0:04:56 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:11:24 - 0:04:56 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:11:39 - 0:05:11 - Train Loss: nan
+INFO - 03/14/24 12:11:39 - 0:05:11 - val: Loss: nan | spec_acc: nan, rgb_acc: nan
+INFO - 03/14/24 12:11:39 - 0:05:11 - val: Loss: nan | spec_acc: nan, rgb_acc: nan, depth rgb acc: nan
+INFO - 03/14/24 12:11:39 - 0:05:11 - No improvement. Breaking out of loop.
